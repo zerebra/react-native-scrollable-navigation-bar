@@ -57,7 +57,7 @@ class ImageNavigationBar extends React.Component {
             imageStyle={imageStyle}
             style={[
               {
-                height,
+                height: image.height || height,
                 transform: [
                   {
                     scale: animatedValue.interpolate({
