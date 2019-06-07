@@ -20,7 +20,7 @@ class BigNavigationBarTitle extends React.Component {
                   outputRange: [44, 36],
                   extrapolate: 'clamp'
                 })
-              : 36
+              : 33
           },
           bigTitleStyle
         ]}
