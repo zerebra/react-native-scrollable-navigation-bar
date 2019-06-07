@@ -21,7 +21,8 @@ class BigNavigationBar extends React.Component {
         style={{
           height,
           justifyContent: 'flex-end',
-          padding: 15,
+          paddingHorizontal: 16,
+          paddingVertical: 8,
           backgroundColor,
           borderBottomWidth: borderColor !== undefined ? 1 : 0,
           borderBottomColor: borderColor
