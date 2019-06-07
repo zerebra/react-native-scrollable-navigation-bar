@@ -19,7 +19,7 @@ class NavigationBarTitle extends React.Component {
         }}
       >
         <Animated.Text
-          style={[{ fontSize: 18, fontWeight: '600' }, titleStyle]}
+          style={[{ lineHeight: 17,fontSize: 17, fontWeight: '500', fontWeight: '600' }, titleStyle]}
         >
           {children}
         </Animated.Text>
