@@ -152,7 +152,7 @@ class ScrollableBigNavBar extends React.Component {
                 pointerEvents="none"
                 animatedValue={this.scroll}
                 height={height}
-                backgroundColor="transparent"
+                backgroundColor={backgroundColor}
                 borderColor={withBigBorder ? borderColor : undefined}
                 bigTitleStyle={bigTitleStyle}
                 title={!hideBigTitle && title}
@@ -179,7 +179,7 @@ class ScrollableBigNavBar extends React.Component {
               pointerEvents="none"
               animatedValue={this.scroll}
               height={height}
-              backgroundColor={backgroundColor}
+              backgroundColor="transparent"
               borderColor={withBigBorder ? borderColor : undefined}
               bigTitleStyle={bigTitleStyle}
               title={!hideBigTitle && title}
